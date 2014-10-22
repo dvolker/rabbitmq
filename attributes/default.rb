@@ -101,3 +101,6 @@ default['rabbitmq']['policies']['ha-two']['params'] = { 'ha-mode' => 'exactly', 
 default['rabbitmq']['policies']['ha-two']['priority'] = 1
 
 default['rabbitmq']['disabled_policies'] = []
+
+default['rabbitmq']['loopback_users'] = '[<<"guest">>]'
+
